@@ -5,4 +5,4 @@ int(long_password)
 password=""
 for i in range(long_password):
     password+=random.choice(character)
-print(password)
+print("Tu nueva contraseña es:",password)
